@@ -1,10 +1,16 @@
 import React from 'react';
+import twitter from '../images/TwitterIcon.png';
+import facebook from '../images/FacebookIcon.png';
+import instagram from '../images/InstagramIcon.png';
+import github from '../images/GitHubIcon.png';
 
 export default function Footer() {
-	<div>
-		<img src="/images/TwitterIcon.png" alt="Twitter" />
-		<img src="/images/FacebookIcon.png" alt="Facebook" />
-		<img src="/images/InstagramIcon.png" alt="Instagram" />
-		<img src="/images/GitHubIcon.png" alt="GitHub" />
-	</div>;
+	return (
+		<div>
+			<img src={twitter} alt="Twitter" />
+			<img src={facebook} alt="Facebook" />
+			<img src={instagram} alt="Instagram" />
+			<img src={github} alt="GitHub" />
+		</div>
+	);
 }
