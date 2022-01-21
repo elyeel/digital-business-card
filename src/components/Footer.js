@@ -6,7 +6,7 @@ import github from '../images/GitHubIcon.png';
 
 export default function Footer() {
 	return (
-		<div>
+		<div className="footer">
 			<img src={twitter} alt="Twitter" />
 			<img src={facebook} alt="Facebook" />
 			<img src={instagram} alt="Instagram" />
